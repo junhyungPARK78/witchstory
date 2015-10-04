@@ -5,7 +5,6 @@
       <File FileName="Assets/3_Script/GM.cs" Line="33" Column="46" />
       <File FileName="Assets/3_Script/Enemy.cs" Line="1" Column="1" />
       <File FileName="Assets/3_Script/Delete.cs" Line="1" Column="1" />
-      <File FileName="Assets/3_Script/PlayerScript.cs" Line="41" Column="2" />
       <File FileName="Assets/3_Script/Effect_del.cs" Line="4" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
