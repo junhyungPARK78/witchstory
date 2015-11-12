@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class PlayerScript : MonoBehaviour {
-
+	
 	public float _speed =-5.0f;
 	private float _halfHeight;
 
@@ -10,6 +10,16 @@ public class PlayerScript : MonoBehaviour {
 	void Start () {
 	
 		_halfHeight = Screen.height * 0.5f;
+
+		if (_anim == null)
+		{
+
+			GetComponent<Animation>()["0_idle"].layer = 0;
+			GetComponent<Animation>()["1_damage"].layer = 1;
+			GetComponent<Animation>()["1_damage"].speed = 5.0f;
+
+		}
+
 
 	}
 	
@@ -30,4 +40,27 @@ public class PlayerScript : MonoBehaviour {
 
 
 	}
+
+	public Animator _anim;
+	public int _hp = 100;
+	void OnTriggerEnter(Collider other)
+	{
+		_hp--;
+
+		 if (_anim != null)
+		{
+			_anim.SetBool("damageChk",true);
+		}
+		else
+		{
+			GetComponent<Animation>().Play("1_damage");
+		}
+
+	}
+
+	void DamageEnd()
+	{
+		_anim.SetBool("damageChk", false);
+	}
+
 }
