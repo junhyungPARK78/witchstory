@@ -1,8 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/3_Script/PlayerScript.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../StudyUnityforSpine/Assets/SpineExamples/Spine/PJH/scripts/player.cs">
     <Files>
-      <File FileName="Assets/3_Script/PlayerScript.cs" Line="56" Column="49" />
+      <File FileName="../../StudyUnityforSpine/Assets/SpineExamples/Spine/PJH/scripts/player.cs" Line="15" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
