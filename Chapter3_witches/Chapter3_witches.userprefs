@@ -1,8 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../SuperMario/Assets/Scripts/Mario.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/3_Script/PlayerScript.cs">
     <Files>
-      <File FileName="../../SuperMario/Assets/Scripts/Mario.cs" Line="13" Column="3" />
+      <File FileName="Assets/3_Script/PlayerScript.cs" Line="64" Column="51" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

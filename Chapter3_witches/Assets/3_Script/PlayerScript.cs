@@ -43,9 +43,18 @@ public class PlayerScript : MonoBehaviour {
 
 	public Animator _anim;
 	public int _hp = 100;
+	public GameObject _DamageEff;
+
+
+
 	void OnTriggerEnter(Collider other)
 	{
 		_hp--;
+
+		var _Eff1 = Instantiate(_DamageEff,transform.localPosition, Quaternion.identity) as GameObject;
+		_Eff1.transform.parent = transform;
+		_Eff1.transform.localPosition=new Vector3(50,30,0);
+		_Eff1.transform.localScale=new Vector3(1,1,1);
 
 		 if (_anim != null)
 		{
@@ -54,6 +63,9 @@ public class PlayerScript : MonoBehaviour {
 		else
 		{
 			GetComponent<Animation>().Play("1_damage");
+
+
+
 		}
 
 	}
